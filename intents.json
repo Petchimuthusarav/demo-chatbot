@@ -1,0 +1,218 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey buddy!",
+        "What's up?",
+        "Good morning!",
+        "Good evening mate!",
+        "Hi friend",
+        "Hello!",
+        "How are you doing?",
+        "Hi bro! What's going on?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hey buddy! What do you need?",
+        "Hey! What's going on?",
+        "Hi there! What's new?",
+        "Hello! I hope you're doing well. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Catch you later!",
+        "See you buddy!",
+        "Take care mate!",
+        "I'm leaving now.",
+        "Bye buddy!",
+        "See you next time!",
+        "Talk to you later!",
+        "Good night!"
+      ],
+      "responses": [
+        "Goodbye buddy! Take care.",
+        "See you next time!",
+        "Take care buddy!",
+        "Catch you later! Stay safe.",
+        "Bye! Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks a lot buddy!",
+        "I really appreciate it mate!",
+        "Thank you so much!",
+        "I’m grateful buddy!",
+        "Thanks buddy!",
+        "Much appreciated!",
+        "You're a lifesaver!"
+      ],
+      "responses": [
+        "You're welcome buddy!",
+        "Happy to help!",
+        "No problem at all!",
+        "Glad I could help you!",
+        "You're always welcome, buddy!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What else do you have?",
+        "List the available items.",
+        "What can I buy?",
+        "What products are on sale?",
+        "What’s special today?",
+        "What drinks do you have?"
+      ],
+      "responses": [
+        "We have coffee, tea, and snacks available.",
+        "You can buy coffee, tea, and some seasonal products.",
+        "We also have samosas, puffs, and biscuits.",
+        "We have cold drinks too! Just let me know what you need."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you accept American Express?",
+        "Can I pay using Google Pay?",
+        "Is PayPal accepted?",
+        "Do you have cash on delivery?",
+        "Can I use my credit card?",
+        "Is PhonePe available?"
+      ],
+      "responses": [
+        "We accept Visa, Mastercard, American Express, and PayPal.",
+        "You can use Google Pay, PhonePe, and most major cards.",
+        "Cash on delivery is available!",
+        "We accept both debit and credit cards."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Do you deliver internationally?",
+        "Is there a delivery charge?",
+        "Can I track my order?",
+        "Do you deliver to my area?",
+        "How long does delivery take?"
+      ],
+      "responses": [
+        "We offer international shipping with tracking included.",
+        "Delivery charges depend on your location and order size.",
+        "Delivery usually takes 30–45 minutes.",
+        "If you’re nearby, it’ll arrive even faster!"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Make me laugh!",
+        "Tell me a joke.",
+        "I need a laugh.",
+        "Say something funny."
+      ],
+      "responses": [
+        "Why don’t skeletons fight each other? They don’t have the guts!",
+        "Did you hear about the restaurant on the moon? Great food, no atmosphere!",
+        "I had a girlfriend once… but she didn’t know about it!"
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "How do I return a product?",
+        "What’s your return policy?",
+        "Can I get a refund?",
+        "How long will it take to process a return?",
+        "Can I return a damaged product?"
+      ],
+      "responses": [
+        "You can return the product within 30 days of purchase.",
+        "Refunds are processed within 5–7 business days.",
+        "If the product is damaged, we’ll replace it immediately.",
+        "Provide your order ID, and I'll check the refund status for you!"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where’s my order?",
+        "How can I track my order?",
+        "Is my package on the way?",
+        "Who’s delivering my order?",
+        "When will my delivery arrive?"
+      ],
+      "responses": [
+        "You can track your order using the link in your confirmation email.",
+        "Let me check the status of your order for you!",
+        "The delivery person’s number is available—feel free to call them!",
+        "Your order is on the way and will arrive soon!"
+      ]
+    },
+    {
+      "tag": "personal_info",
+      "patterns": [
+        "What’s your name?",
+        "When did you start working?",
+        "How old are you?",
+        "Where are you from?"
+      ],
+      "responses": [
+        "I'm ChatBot! You can ask me anything.",
+        "I’m an AI, so I don’t have an age!",
+        "I’m always around to help you out.",
+        "I live in the cloud, so technically… everywhere!"
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How’s the weather?",
+        "What’s going on?",
+        "What’s new?",
+        "Are you busy?",
+        "Feeling good today?"
+      ],
+      "responses": [
+        "I’m feeling great, thanks for asking!",
+        "Nothing much, just here to help you!",
+        "The weather’s nice—great time for a coffee, huh?",
+        "I'm never too busy for you!"
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "I'm feeling down.",
+        "I'm so happy today!",
+        "I’m bored.",
+        "I’m stressed out."
+      ],
+      "responses": [
+        "I'm here for you! Want to talk about it?",
+        "That’s awesome! Keep up the good vibes!",
+        "Let’s find something fun to do together!",
+        "Take a deep breath… you've got this!"
+      ]
+    },
+    {
+      "tag": "romance",
+      "patterns": [
+        "I love you",
+        "you are my everything",
+        "give me a kiss"
+      ],
+      "responses": [
+        " I know",
+        "not today",
+        "I love you too"
+      ]
+    }
+  ]
+}
